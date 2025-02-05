@@ -124,8 +124,13 @@ const DashboardLayout = () => {
           </div>
         </div>
        <Outlet/>
+       <section className="text-right font-semibold text-gray-500">
+              <a href="#" className="text-purple-600 hover:underline">Apali Book Store</a> made by<a href="https://suraj-hapse-porfolio.netlify.app/" className=" hover:underline"> SH</a>
+            </section>
       </main>
+      
     </div>
+    
   </section>
   )
 }
