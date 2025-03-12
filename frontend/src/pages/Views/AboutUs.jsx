@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import img from '../../assets/Logo/booklogo.png';
+import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa"; // Import social media icons
 
 const AboutUs = () => {
   return (
@@ -49,6 +51,87 @@ const AboutUs = () => {
             >
               Get In Touch
             </Link>
+          </div>
+        </div>
+      </div>
+
+      {/* Profile Cards Section */}
+      <div className="mt-16">
+        <h2 className="text-2xl font-bold text-center text-primary mb-8">Meet Our Team</h2>
+        <div className="grid md:grid-cols-3 gap-8">
+          {/* Profile Card 1 */}
+          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
+            <img
+              src={img}
+              alt="Team Member 1"
+              className="w-32 h-32 rounded-full mx-auto mb-4"
+            />
+            <h3 className="text-xl font-semibold text-gray-700">John Doe</h3>
+            <p className="text-gray-600 mb-2">CEO & Founder</p>
+            <p className="text-gray-600 mb-4">
+              John is passionate about books and has over 10 years of experience in the publishing industry.
+            </p>
+            <div className="flex justify-center space-x-4">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <FaLinkedin className="text-blue-600 hover:text-blue-700 text-2xl" />
+              </a>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                <FaTwitter className="text-blue-400 hover:text-blue-500 text-2xl" />
+              </a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <FaGithub className="text-gray-700 hover:text-gray-800 text-2xl" />
+              </a>
+            </div>
+          </div>
+
+          {/* Profile Card 2 */}
+          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
+            <img
+              src={img}
+              alt="Team Member 2"
+              className="w-32 h-32 rounded-full mx-auto mb-4"
+            />
+            <h3 className="text-xl font-semibold text-gray-700">Jane Smith</h3>
+            <p className="text-gray-600 mb-2">Marketing Director</p>
+            <p className="text-gray-600 mb-4">
+              Jane specializes in digital marketing and has a knack for connecting readers with the right books.
+            </p>
+            <div className="flex justify-center space-x-4">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <FaLinkedin className="text-blue-600 hover:text-blue-700 text-2xl" />
+              </a>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                <FaTwitter className="text-blue-400 hover:text-blue-500 text-2xl" />
+              </a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <FaGithub className="text-gray-700 hover:text-gray-800 text-2xl" />
+              </a>
+            </div>
+          </div>
+
+          {/* Profile Card 3 */}
+          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
+            <img
+              src={img}
+              alt="Team Member 3"
+              className="w-32 h-32 rounded-full mx-auto mb-4"
+            />
+            <h3 className="text-xl font-semibold text-gray-700">Mike Johnson</h3>
+            <p className="text-gray-600 mb-2">Head of Operations</p>
+            <p className="text-gray-600 mb-4">
+              Mike ensures that all operations run smoothly, from inventory management to customer service.
+            </p>
+            <div className="flex justify-center space-x-4">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <FaLinkedin className="text-blue-600 hover:text-blue-700 text-2xl" />
+              </a>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                <FaTwitter className="text-blue-400 hover:text-blue-500 text-2xl" />
+              </a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <FaGithub className="text-gray-700 hover:text-gray-800 text-2xl" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
