@@ -46,7 +46,7 @@ const OrderPage = () => {
                       <span className="font-medium">Phone:</span> {order.phone}
                     </p>
                     <p className="text-gray-600">
-                      <span className="font-medium">Total Price:</span> ${order.totalPrice}
+                      <span className="font-medium">Total Price:</span> RS.{order.totalPrice}
                     </p>
                   </div>
                   <div>
