@@ -110,10 +110,10 @@ const AboutUs = () => {
     {/* Profile Card 3 - Chitali */}
     <div className="bg-white rounded-lg shadow-lg p-6 text-center">
       <img src={img3} alt="Chitali Garud" className="w-32 h-32 rounded-full mx-auto mb-4" />
-      <h3 className="text-xl font-semibold text-gray-700">Chitali Garud</h3>
+      <h3 className="text-xl font-semibold text-gray-700">Chaitali Garud</h3>
       <p className="text-gray-600 mb-2 font-medium">Support Engineer</p>
       <p className="text-gray-600 mb-2">Web Developer</p>
-      <p className="text-gray-600 mb-4">Chitali provides essential support in debugging, troubleshooting, and optimizing web applications.</p>
+      <p className="text-gray-600 mb-4">Chaitali provides essential support in debugging, troubleshooting, and optimizing web applications.</p>
       
       {/* Social Links */}
       <div className="flex justify-center space-x-4">
