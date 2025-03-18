@@ -93,7 +93,7 @@ const Footer = () => {
 
       {/* Copyright Section */}
       <div className="container mx-auto mt-4">
-        <p className="text-center text-sm"><a href='https://suraj-hapse-porfolio.netlify.app/'>&copy; {new Date().getFullYear()} Copyright by Suraj Hapse. All rights reserved.</a>
+        <p className="text-center text-sm"><a href='https://suraj-hapse-porfolio.netlify.app/'>&copy; {new Date().getFullYear()} Copyright by SH. All rights reserved.</a>
           
         </p>
       </div>
